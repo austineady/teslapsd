@@ -1,0 +1,355 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background-color: rgba(98, 100, 125, 1);
+}
+
+h2 {
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.in {
+  background-color: rgba(48, 49, 62, 1);
+  transition: 1s;
+}
+
+.outer-container {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-custom {
+  background-color: transparent;
+  height: 83px;
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+}
+
+.nav li {
+  margin-top: 10px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav li a:hover {
+  color: rgba(35, 36, 46, 1);
+}
+
+.active {
+  background-color: rgba(35, 36, 46, .6);
+  color: rgba(75, 77, 97, 1);
+}
+
+.hero-image {
+  background: linear-gradient(rgba(75, 77, 97, 1), rgba(98, 100, 125, .7)), url('./../assets/tesla.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 700px;
+  position: absolute;
+}
+
+.hero-car {
+  height: auto;
+}
+
+.exterior {
+  background-color: rgba(35, 36, 46, 1);
+}
+
+.call-to-action {
+  height: 120px;
+  padding-top: 30px;
+  background-color: rgba(250, 250, 250, 1);
+}
+
+.test-drive {
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  background-color: rgba(48, 49, 62, 1);
+  border: 0;
+  cursor: pointer;
+  margin: 0 auto;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+}
+
+.hero-text {
+  margin-top: 100px;
+  color: white;
+}
+
+.hero-button {
+  width: 180px;
+  height: 50px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border: 0;
+  margin-top: 10px;
+  background-color: #ce0000;
+  color: white;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .2);
+}
+
+.hero-textbox {
+  width: 100%;
+  height: 300px;
+  margin: 0;
+}
+
+.car-box {
+  position: relative;
+}
+
+.car-container {
+  max-width: 1150px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -20px;
+  z-index: 1;
+}
+
+.car-image {
+  max-height: 500px;
+}
+
+.menu-icon {
+  width: 30px;
+  height: auto;
+  margin-top: 9px;
+}
+
+.light {
+  background-color: rgba(75, 77, 97, 1);
+}
+
+.dark {
+  background-color: rgba(48, 49, 62, 1);
+}
+
+.car-text {
+  height: 300px;
+  width: 33.333333%;
+  color: white;
+  text-align: center;
+}
+
+.car-text h1 {
+  font-size: 90px;
+  font-weight: 100;
+  margin-top: 100px;
+}
+
+.car-text h6 {
+  font-size: 15px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.interior {
+  background-color: rgba(48, 49, 62, 1);
+  height: auto;
+  padding: 0;
+}
+
+.interior div {
+  padding: 0;
+}
+
+.interior-box {
+  max-height: 300px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+.exterior-box h1 {
+  font-weight: 300;
+  margin-top: 10%;
+}
+
+.interior-box h1 {
+  font-weight: 300;
+  margin-top: 15%;
+}
+
+.interior-box p {
+  width: 80%;
+  font-size: 17px;
+  font-weight: 100;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.exterior {
+  height: auto;
+  padding: 0;
+  background-color: #62637d;
+}
+
+.exterior div {
+  padding: 0;
+}
+
+.exterior-box {
+  max-height: 300px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+.exterior-box p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 17px;
+  font-weight: 100;
+  text-align: left;
+}
+
+.footer {
+  background-color: rgba(98, 100, 125, 1);
+  height: 100px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.footer-logo {
+  height: 80px;
+  width: auto;
+}
+
+.content {
+  position: relative;
+  top: 300px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+@media(min-width: 1600px) {
+  .hero-text {
+    position: relative;
+    left: 60px;
+    top: 200px;
+    max-width: 500px;
+  }
+}
+
+@media(max-width: 768px) {
+  .car-text {
+    height: 250px;
+  }
+  .car-text h1 {
+    font-size: 70px;
+    margin-top: 70px;
+  }
+  .exterior-box h1 {
+    margin-top: 5%;
+  }
+  .exterior-box p {
+    margin-bottom: 20px;
+  }
+  .interior-box h1 {
+    margin-top: 5%;
+  }
+  .interior-box p {
+    margin-bottom: 20px;
+  }
+  .hero-image {
+    height: 600px;
+  }
+  .car-container {
+    bottom: -50px;
+  }
+}
+
+@media(max-width: 615px) {
+  .hero-image {
+    height: 500px;
+  }
+  .car-text {
+    height: 200px;
+  }
+  .hero-textbox {
+    height: 250px;
+  }
+  .car-text h1 {
+    font-size: 50px;
+  }
+  .car-text h6 {
+    font-size: 13px;
+  }
+  .car-container {
+    bottom: -150px;
+  }
+  .exterior-box p {
+    margin-bottom: 30px;
+  }
+  .interior-box p {
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 455px) {
+  .hero-image {
+    height: 250px;
+  }
+  .hero-textbox {
+    height: 175px;
+  }
+  .car-text {
+    height: 150px;
+  }
+  .car-text h1 {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  .car-text h6 {
+    font-size: 11px;
+  }
+  .car-container {
+    bottom: -250px;
+  }
+  .content {
+    top: 140px;
+  }
+  .navbar-brand {
+    width: 200px;
+    margin-top: 15px;
+  }
+  .menu-icon {
+    margin-right: 5px;
+  }
+  .navbar-header {
+    background-color: rgba(48, 49, 62, 1);
+  }
+}
